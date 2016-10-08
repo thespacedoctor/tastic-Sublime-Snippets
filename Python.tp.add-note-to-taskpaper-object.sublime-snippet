@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+newNote = doc.add_note(And another note with a link http://www.thespacedoctor.co.uk")
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>xtp-add-note-to-taskpaper-object</tabTrigger>
+    <!-- Required: Base Phrase to generate tab-triggers -->
+    <triggerBase>add-note-to-taskpaper-object</triggerBase>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>snip</description>
+    <!-- Optional: Tags to help with tab completion -->
+    <tags></tags>
+</snippet>

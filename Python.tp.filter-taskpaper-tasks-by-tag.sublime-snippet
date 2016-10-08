@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+${1:tag}Tasks = doc.tagged_tasks("@${1:tag}")
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>xtp-filter-taskpaper-tasks-by-tag</tabTrigger>
+    <!-- Required: Base Phrase to generate tab-triggers -->
+    <triggerBase>filter-taskpaper-tasks-by-tag</triggerBase>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>snip</description>
+    <!-- Optional: Tags to help with tab completion -->
+    <tags></tags>
+</snippet>
