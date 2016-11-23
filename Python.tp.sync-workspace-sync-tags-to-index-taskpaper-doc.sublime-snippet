@@ -1,0 +1,23 @@
+<snippet>
+    <content><![CDATA[
+from tastic.workspace import sync
+tp = sync(
+    log=log,
+    settings=settings,
+    workspaceRoot=${1:"/path/to/workspace/root"},
+    workspaceName="${2:myWorkspace}",
+    syncFolder=${3:"/path/to/sync/folder"}
+)
+tp.sync()
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>xtp-sync-workspace-sync-tags-to-index-taskpaper-doc</tabTrigger>
+    <!-- Required: Base Phrase to generate tab-triggers -->
+    <triggerBase>sync-workspace-sync-tags-to-index-taskpaper-doc</triggerBase>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>snip</description>
+    <!-- Optional: Tags to help with tab completion -->
+    <tags></tags>
+</snippet>
