@@ -20,6 +20,7 @@
 	{ "trigger": "tp> add task to a taskpaper object\tcomp", "contents": "xtp-add-task-to-a-taskpaper-object" },
 	{ "trigger": "tp> filter taskpaper projects by tag\tcomp", "contents": "xtp-filter-taskpaper-projects-by-tag" },
 	{ "trigger": "tp> set tags on taskpaper object\tcomp", "contents": "xtp-set-tags-on-taskpaper-object" },
+	{ "trigger": "tp> sync workspace sync tags to index taskpaper doc\tcomp", "contents": "xtp-sync-workspace-sync-tags-to-index-taskpaper-doc" },
 	{ "trigger": "tp> task list associated with a taskpaper object\tcomp", "contents": "xtp-task-list-associated-with-a-taskpaper-object" },
 	{ "trigger": "tp> content of a taskpaper object\tcomp", "contents": "xtp-content-of-a-taskpaper-object" },
 	{ "trigger": "tp> get project by name\tcomp", "contents": "xtp-get-project-by-name" },
